@@ -1,0 +1,204 @@
+/* css utilisees*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo-docplanner_1
+{
+    width: 268px;
+    height: 33px;
+}
+.a_item :hover
+{
+color: #00ccb1 !important ;
+}
+.logo-docplanner_2
+{
+    width: 4%;
+    height: 4%;
+    margin-bottom: 3%;
+} 
+.section_1 
+{
+padding-top: 10%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 3%;
+}
+.section_2
+{
+    margin-top: 5%;
+    font-size: 118%;
+    color:#747474;
+}
+.section_3
+{
+    margin-top: 4%;  
+}
+.service_for_patient
+{background-color:#00ccb1;
+ border-radius: 20px;
+padding: 1.375em 2.5em 0;
+ overflow: hidden;
+}
+.service_for_doctor
+{background-color:#3d83df;
+border-radius: 20px;
+ padding: 1.375em 2.5em 0;
+ overflow: hidden;
+ margin-left: 0%;
+}
+.service_for_patient h2
+{
+font-size: 1em;
+ color:#96e2b1;
+ 
+}
+.service_for_doctor h2
+{
+font-size: 1em;
+ color:#abd9f5;
+}
+.section_3 h1
+{
+ font-size: 2em;
+ color:white;
+
+}
+.section_3 img
+{
+height: 80%;
+}
+.section_4
+{
+    padding-top: 4%;
+    padding-bottom:4%   
+}
+.second_ligne,.first_ligne svg
+
+{fill: #a9a9a9;
+margin-left: -1%;
+ }
+.first_ligne :hover
+ {fill: #00ccb1;
+  }
+
+.second_ligne :hover
+{fill: #00ccb1;
+
+ }
+ .first_ligne, .second_ligne
+{display:flex;
+ justify-content:center;
+ align-items: center;
+}
+ .box_1,.box_2,.box_3,.box_4
+ { background-color: white;
+  padding: 2%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  border-radius: 3%;
+  }
+  .box_1,.box_3
+  {
+  margin-top: 7%;
+  margin-bottom: -2%;
+  }
+ .section_5
+{
+
+  padding: 4%;
+  background-color:#d6f6f6; 
+    
+}
+
+.section_5 h1,.section_6 h1
+{ 
+  color:#00b39b;
+  padding: 2%;
+
+}
+.section_5 p,.section_6 p
+{ 
+  color:#747474;
+  padding: 2%;
+
+}
+.section_6
+{
+  padding: 4%;
+ 
+}
+
+.btn_1
+{
+  background-color:white;
+  font-size: 120%;
+  color:gray ;
+  border: none;
+  padding-top:2%;
+ 
+}
+.btn_2
+{
+  background-color:#0093fe;
+  color: white;
+  padding-top:2%;
+  font-size: 80%;
+  margin-right: 5%;
+ 
+}
+.section_7_btn
+{
+  margin-top:5%;
+  
+  margin-bottom:8%;
+ 
+}
+.img_but:hover
+{
+  box-shadow: 0 -2px 10px 0 rgba(0,0,0,.15);
+}
+.section_7_1 img
+{
+  border-radius: 4%;  
+ 
+}
+.section_7_2 img
+{
+  border-radius: 4%;  
+ 
+}
+.section_7
+{display:flex;
+ justify-content:center;
+ align-items: center;
+}
+.footer{
+  color:gray;
+  margin-top: 5%;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
